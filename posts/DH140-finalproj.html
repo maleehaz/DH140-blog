@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Maleeha Zaman">
+<meta name="dcterms.date" content="2023-07-30">
+<meta name="description" content="Project for Digital Humanities 140: Coding For Humanities (UCLA Summer 2023)">
+
+<title>myblog - The Museum of Modern Art: A closer look at how collections have progressed in the past 150 years</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">myblog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">The Museum of Modern Art: A closer look at how collections have progressed in the past 150 years</h1>
+                  <div>
+        <div class="description">
+          Project for Digital Humanities 140: Coding For Humanities (UCLA Summer 2023)
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Maleeha Zaman </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">July 30, 2023</p>
+      </div>
+    </div>
+    
+      <div>
+      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">July 30, 2023</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="the-museum-of-modern-art-a-closer-look-at-how-collections-have-progressed-in-the-past-150-years" class="level1">
+<h1>The Museum of Modern Art: A closer look at how collections have progressed in the past 150 years</h1>
+<p>Maleeha Zaman 7/30/2023</p>
+<p>Project for Digital Humanities 140: Coding For Humanities (UCLA Summer 2023)</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/moma.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">MoMA Pic</figcaption>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>The Museum of Modern Art (MoMA) was established in New York City and hosts a collection of modern (produced during 1860s-1970s) and contemporary (produced by artists today) art works. Acquiring its first works in 1929, MoMA now has an evolving collection containing over 200,000 works from around the world. The collections includes an expansive range of visual expression such as painting, sculpture, printmaking, film, and many more that will be investigated in this project.</p>
+</blockquote>
+<section id="about-the-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-dataset">About the Dataset</h3>
+<p><a href="https://github.com/MuseumofModernArt/collection">Museum of Modern Art Collection</a></p>
+<p>This MoMA collections data was developed by the Museum itself and sourced directly form the MoMA database. It consists of an artists dataset and acquired artworks dataset.</p>
+<p>The <a href="https://github.com/MuseumofModernArt/collection/blob/master/Artworks.csv">artworks dataset</a> contains basic metadata for each work, including title, artist, date made, medium, dimensions, and date acquired by the Museum. Some of the records have incomplete information and have been noted as “not Curator Approved”.</p>
+<p>The <a href="https://github.com/MuseumofModernArt/collection/blob/master/Artists.csv">artists dataset</a> contains 15,243 records of artists who have works in MoMA’s collection. It includes basic metadata for each artist, including name, nationality, gender, birth year, death year, Wiki QID, and Getty ULAN ID.</p>
+</section>
+<section id="why-examine-the-history-of-moma-collections" class="level3">
+<h3 class="anchored" data-anchor-id="why-examine-the-history-of-moma-collections">Why Examine the History of MoMA Collections?</h3>
+<p>The MoMA collections dataset holds immense potential to uncover trends and influences on the artistic evolution during the past 150 years. Examining the metadata of the artists and art works included in the collection, we can more accurately trace the cultural, social, and historical shifts that occurred in MoMA, as well as any disparities in representation. This dataset can offer key insights into the tastes of MoMA curators by examining factors that could have contributed to their inclusion in the MoMA collections as well as identify underrepresented groups.</p>
+</section>
+<section id="research-questions" class="level3">
+<h3 class="anchored" data-anchor-id="research-questions">Research Questions</h3>
+<ol type="1">
+<li>How do the titles and descriptions of artworks in the collection reflect shifts in language use and cultural norms throughout the 20th and 21st centuries?</li>
+<li>How does the representation of underrepresented artists, such as women, artists of color, and LGBTQ+ artists change over time in the collections?</li>
+<li>What aspects of the artists and their works influence the museum’s curatorial decisions and artistic preferences? Can we categorize eras of the museum’s curatorial choices based on stylistic preferences during a specific time period, if there is any?</li>
+</ol>
+</section>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<section id="exploratory-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="exploratory-data-analysis">Exploratory Data Analysis</h3>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> string</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nltk</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> string <span class="im">import</span> punctuation</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.tokenize <span class="im">import</span> word_tokenize</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.sentiment <span class="im">import</span> vader</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.corpus <span class="im">import</span> stopwords</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.corpus <span class="im">import</span> opinion_lexicon</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.stem.porter <span class="im">import</span> PorterStemmer </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>dfartworks <span class="op">=</span> pd.read_csv(<span class="st">'https://github.com/MuseumofModernArt/collection/raw/master/Artworks.csv'</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>dfartists <span class="op">=</span> pd.read_csv(<span class="st">'https://github.com/MuseumofModernArt/collection/raw/master/Artists.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>dfartworks.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+<div>
+
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Title</th>
+<th data-quarto-table-cell-role="th">Artist</th>
+<th data-quarto-table-cell-role="th">ConstituentID</th>
+<th data-quarto-table-cell-role="th">ArtistBio</th>
+<th data-quarto-table-cell-role="th">Nationality</th>
+<th data-quarto-table-cell-role="th">BeginDate</th>
+<th data-quarto-table-cell-role="th">EndDate</th>
+<th data-quarto-table-cell-role="th">Gender</th>
+<th data-quarto-table-cell-role="th">Date</th>
+<th data-quarto-table-cell-role="th">Medium</th>
+<th data-quarto-table-cell-role="th">...</th>
+<th data-quarto-table-cell-role="th">ThumbnailURL</th>
+<th data-quarto-table-cell-role="th">Circumference (cm)</th>
+<th data-quarto-table-cell-role="th">Depth (cm)</th>
+<th data-quarto-table-cell-role="th">Diameter (cm)</th>
+<th data-quarto-table-cell-role="th">Height (cm)</th>
+<th data-quarto-table-cell-role="th">Length (cm)</th>
+<th data-quarto-table-cell-role="th">Weight (kg)</th>
+<th data-quarto-table-cell-role="th">Width (cm)</th>
+<th data-quarto-table-cell-role="th">Seat Height (cm)</th>
+<th data-quarto-table-cell-role="th">Duration (sec.)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>Ferdinandsbrücke Project, Vienna, Austria (Ele...</td>
+<td>Otto Wagner</td>
+<td>6210</td>
+<td>(Austrian, 1841–1918)</td>
+<td>(Austrian)</td>
+<td>(1841)</td>
+<td>(1918)</td>
+<td>(Male)</td>
+<td>1896</td>
+<td>Ink and cut-and-pasted painted pages on paper</td>
+<td>...</td>
+<td>http://www.moma.org/media/W1siZiIsIjUyNzc3MCJd...</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>48.6000</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>168.9000</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>City of Music, National Superior Conservatory ...</td>
+<td>Christian de Portzamparc</td>
+<td>7470</td>
+<td>(French, born 1944)</td>
+<td>(French)</td>
+<td>(1944)</td>
+<td>(0)</td>
+<td>(Male)</td>
+<td>1987</td>
+<td>Paint and colored pencil on print</td>
+<td>...</td>
+<td>http://www.moma.org/media/W1siZiIsIjUyNzM3NCJd...</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>40.6401</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>29.8451</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>Villa near Vienna Project, Outside Vienna, Aus...</td>
+<td>Emil Hoppe</td>
+<td>7605</td>
+<td>(Austrian, 1876–1957)</td>
+<td>(Austrian)</td>
+<td>(1876)</td>
+<td>(1957)</td>
+<td>(Male)</td>
+<td>1903</td>
+<td>Graphite, pen, color pencil, ink, and gouache ...</td>
+<td>...</td>
+<td>http://www.moma.org/media/W1siZiIsIjUyNzM3NSJd...</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>34.3000</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>31.8000</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>The Manhattan Transcripts Project, New York, N...</td>
+<td>Bernard Tschumi</td>
+<td>7056</td>
+<td>(French and Swiss, born Switzerland 1944)</td>
+<td>()</td>
+<td>(1944)</td>
+<td>(0)</td>
+<td>(Male)</td>
+<td>1980</td>
+<td>Photographic reproduction with colored synthet...</td>
+<td>...</td>
+<td>http://www.moma.org/media/W1siZiIsIjUyNzQ3NCJd...</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>50.8000</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>50.8000</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>Villa, project, outside Vienna, Austria, Exter...</td>
+<td>Emil Hoppe</td>
+<td>7605</td>
+<td>(Austrian, 1876–1957)</td>
+<td>(Austrian)</td>
+<td>(1876)</td>
+<td>(1957)</td>
+<td>(Male)</td>
+<td>1903</td>
+<td>Graphite, color pencil, ink, and gouache on tr...</td>
+<td>...</td>
+<td>http://www.moma.org/media/W1siZiIsIjUyNzQ3NSJd...</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>38.4000</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>19.1000</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+</tbody>
+</table>
+
+<p>5 rows × 29 columns</p>
+</div>
+</div>
+</div>
+<div class="cell" data-scrolled="true" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>dfartists.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="4">
+<div>
+
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">ConstituentID</th>
+<th data-quarto-table-cell-role="th">DisplayName</th>
+<th data-quarto-table-cell-role="th">ArtistBio</th>
+<th data-quarto-table-cell-role="th">Nationality</th>
+<th data-quarto-table-cell-role="th">Gender</th>
+<th data-quarto-table-cell-role="th">BeginDate</th>
+<th data-quarto-table-cell-role="th">EndDate</th>
+<th data-quarto-table-cell-role="th">Wiki QID</th>
+<th data-quarto-table-cell-role="th">ULAN</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>1</td>
+<td>Robert Arneson</td>
+<td>American, 1930–1992</td>
+<td>American</td>
+<td>Male</td>
+<td>1930</td>
+<td>1992</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>2</td>
+<td>Doroteo Arnaiz</td>
+<td>Spanish, born 1936</td>
+<td>Spanish</td>
+<td>Male</td>
+<td>1936</td>
+<td>0</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>3</td>
+<td>Bill Arnold</td>
+<td>American, born 1941</td>
+<td>American</td>
+<td>Male</td>
+<td>1941</td>
+<td>0</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>4</td>
+<td>Charles Arnoldi</td>
+<td>American, born 1946</td>
+<td>American</td>
+<td>Male</td>
+<td>1946</td>
+<td>0</td>
+<td>Q1063584</td>
+<td>500027998.0</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>5</td>
+<td>Per Arnoldi</td>
+<td>Danish, born 1941</td>
+<td>Danish</td>
+<td>Male</td>
+<td>1941</td>
+<td>0</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>dfartists[<span class="st">'Nationality'</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="5">
+<pre><code>array(['American', 'Spanish', 'Danish', 'Italian', 'French', 'Estonian',
+       'Mexican', 'Swedish', nan, 'Israeli', 'British', 'Finnish',
+       'Polish', 'Palestinian', 'Japanese', 'Guatemalan', 'Colombian',
+       'Romanian', 'Russian', 'German', 'Argentine', 'Kuwaiti', 'Belgian',
+       'Dutch', 'Norwegian', 'Nationality unknown', 'Chilean', 'Swiss',
+       'Costa Rican', 'Czech', 'Brazilian', 'Austrian', 'Canadian',
+       'Australian', 'Ukrainian', 'Hungarian', 'Haitian', 'Congolese',
+       'Bolivian', 'Cuban', 'Slovenian', 'Portuguese', 'Indian',
+       'Peruvian', 'Icelandic', 'Irish', 'Croatian', 'Uruguayan',
+       'Slovak', 'Greek', 'Chinese', 'Venezuelan', 'Native American',
+       'Turkish', 'Panamanian', 'Algerian', 'Ecuadorian', 'South African',
+       'Iranian', 'Korean', 'Serbian', 'Canadian Inuit', 'Paraguayan',
+       'Luxembourger', 'Nicaraguan', 'Zimbabwean', 'Moroccan',
+       'Tanzanian', 'Bulgarian', 'Tunisian', 'Sudanese', 'Taiwanese',
+       'Ethiopian', 'Yugoslav', 'Scottish', 'Latvian', 'Azerbaijani',
+       'Senegalese', 'Thai', 'New Zealander', 'Lithuanian', 'Pakistani',
+       'Bahamian', 'Bosnian', 'Malian', 'Czechoslovakian', 'Georgian',
+       'Egyptian', 'Kenyan', 'Emirati', 'Nigerian', 'Cypriot', 'Albanian',
+       'Ivorian', 'Malaysian', 'Singaporean', 'Namibian', 'Cambodian',
+       'Ghanaian', 'Afghan', 'Lebanese', 'Kyrgyz', 'Vietnamese',
+       'Ugandan', 'Cameroonian', 'Welsh', 'Puerto Rican', 'Catalan',
+       'Filipino', 'Macedonian', 'Sahrawi', 'Mozambican', 'Bangladeshi',
+       'Coptic', 'Persian', 'Burkinabé', 'Beninese', 'Sierra Leonean',
+       'Salvadoran', 'Iraqi'], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>dfartists[<span class="st">'Gender'</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="6">
+<pre><code>array(['Male', 'Female', nan, 'Non-Binary', 'male', 'female',
+       'Non-binary'], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>dfartists[<span class="st">'Gender'</span>] <span class="op">=</span> dfartists[<span class="st">'Gender'</span>].<span class="bu">str</span>.lower()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="49">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>gender <span class="op">=</span> dfartists[<span class="st">'Gender'</span>]</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>dfgender <span class="op">=</span> gender.value_counts(dropna <span class="op">=</span> <span class="va">False</span>).to_frame()</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>genderplot <span class="op">=</span> dfgender.plot.pie(subplots <span class="op">=</span> <span class="va">True</span>, figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">5</span>), autopct<span class="op">=</span><span class="st">'</span><span class="sc">%1.2f%%</span><span class="st">'</span>, colors <span class="op">=</span> [<span class="st">'lightblue'</span>, <span class="st">'yellowgreen'</span>, <span class="st">'pink'</span>, <span class="st">'purple'</span>], title <span class="op">=</span> <span class="st">'Gender Breakdown of MoMA Artists'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="DH140-finalproj_files/figure-html/cell-9-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>myStopWords <span class="op">=</span> <span class="bu">list</span>(punctuation) <span class="op">+</span> stopwords.words(<span class="st">'english'</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>dfartworks[<span class="st">'Medium'</span>] <span class="op">=</span> dfartworks[<span class="st">'Medium'</span>].<span class="bu">str</span>.lower()</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>dfartworks[<span class="st">'Medium'</span>] <span class="op">=</span> dfartworks[<span class="st">'Medium'</span>].<span class="bu">str</span>.replace(<span class="st">','</span>, <span class="st">' '</span>)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>dfartworks <span class="op">=</span> dfartworks.astype({<span class="st">'Medium'</span>:<span class="st">'string'</span>})</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>dfmed <span class="op">=</span> dfartworks[<span class="st">'Medium'</span>].dropna()</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>medwordlist <span class="op">=</span> []</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> dfmed:</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> w <span class="kw">in</span> i.split():</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> w <span class="kw">not</span> <span class="kw">in</span> myStopWords:</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>            medwordlist.append(w)</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="co"># NEED TO REDUCE WORDS TO STEMS TO FURTHER REFINE</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>dfmed <span class="op">=</span> pd.DataFrame(nltk.FreqDist(medwordlist).most_common(<span class="dv">20</span>), columns<span class="op">=</span> [<span class="st">'Words'</span>, <span class="st">'Frequency'</span>]).sort_values(<span class="st">'Frequency'</span>)</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>medplot <span class="op">=</span> plt.barh(dfmed[<span class="st">'Words'</span>], dfmed[<span class="st">'Frequency'</span>], color<span class="op">=</span><span class="st">'lightcoral'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="DH140-finalproj_files/figure-html/cell-10-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-scrolled="true" data-execution_count="10">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>artistdist <span class="op">=</span> dfartworks[<span class="st">'Artist'</span>]</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>artistdistdf <span class="op">=</span> artistdist.value_counts().to_frame()</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>artistdistdf.head(<span class="dv">20</span>).sort_values(<span class="st">'Artist'</span>).plot.barh()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="10">
+<pre><code>&lt;Axes: &gt;</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="DH140-finalproj_files/figure-html/cell-11-output-2.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="46">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>dates <span class="op">=</span> []</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> dfartworks[<span class="st">'Date'</span>]:</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="kw">not</span> pd.isna(i)) <span class="kw">and</span> i.isnumeric() <span class="kw">and</span> <span class="bu">len</span>(i) <span class="op">==</span> <span class="dv">4</span>:</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    dates.append(<span class="bu">int</span>(i))</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>dates.sort()</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>timeseries <span class="op">=</span> np.unique(dates, return_counts<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>plt.plot(timeseries[<span class="dv">0</span>], timeseries[<span class="dv">1</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<p><img src="DH140-finalproj_files/figure-html/cell-12-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="focused-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="focused-analysis">Focused Analysis</h3>
+<p>DATA VIZ 1: Plot to categorize mediums according to the words included for each artwork, and plot the frequencies of the artworks (divided into different lines according to each medium) over time</p>
+<p>DATA VIZ 2: Sentiment analysis on “Title” variable of artworks (using Vader). Plot negative and positive composite scores over time to identify if MoMA curators have fluctuated between positive and negative themes</p>
+<p>DATA VIZ 3: Categorize nationalities into more broader regions (by continent/continental regions) and plot histograms/or a line plot for each region to identify groups that have come to be more represented/underrepresented</p>
+<p>DATA VIZ 4: Plot frequencies of female/male artists over time (non-binary artists are excluded as there is less than 1% of them represented in this dataset)</p>
+<p>DATA VIZ 5: Plot frequencies of mediums against artists’ continental regions (possibly arranging this into a map somehow using folium?)</p>
+</section>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

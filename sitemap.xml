@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://maleehaz.github.io/DH140-blog/index.html</loc>
-    <lastmod>2023-07-31T00:50:07.782Z</lastmod>
+    <lastmod>2023-07-31T11:03:40.951Z</lastmod>
   </url>
   <url>
     <loc>https://maleehaz.github.io/DH140-blog/posts/post-with-code/index.html</loc>
-    <lastmod>2023-07-31T00:50:06.508Z</lastmod>
-  </url>
-  <url>
-    <loc>https://maleehaz.github.io/DH140-blog/posts/BlogPost1.html</loc>
-    <lastmod>2023-07-31T00:50:04.947Z</lastmod>
+    <lastmod>2023-07-31T11:03:39.585Z</lastmod>
   </url>
   <url>
     <loc>https://maleehaz.github.io/DH140-blog/posts/welcome/index.html</loc>
-    <lastmod>2023-07-31T00:50:06.024Z</lastmod>
+    <lastmod>2023-07-31T11:03:37.800Z</lastmod>
+  </url>
+  <url>
+    <loc>https://maleehaz.github.io/DH140-blog/posts/BlogPost1.html</loc>
+    <lastmod>2023-07-31T11:03:37.258Z</lastmod>
+  </url>
+  <url>
+    <loc>https://maleehaz.github.io/DH140-blog/posts/DH140-finalproj.html</loc>
+    <lastmod>2023-07-31T11:03:39.086Z</lastmod>
   </url>
   <url>
     <loc>https://maleehaz.github.io/DH140-blog/about.html</loc>
-    <lastmod>2023-07-31T00:50:06.978Z</lastmod>
+    <lastmod>2023-07-31T11:03:40.090Z</lastmod>
   </url>
 </urlset>
