@@ -333,7 +333,8 @@ Requirement already satisfied: packaging in /opt/conda/lib/python3.10/site-packa
 <span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>            medwordlist.append(PorterStemmer().stem(w))</span>
 <span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>dfmed <span class="op">=</span> pd.DataFrame(nltk.FreqDist(medwordlist).most_common(<span class="dv">20</span>), columns<span class="op">=</span> [<span class="st">'Words'</span>, <span class="st">'Frequency'</span>]).sort_values(<span class="st">'Frequency'</span>)</span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>medplot <span class="op">=</span> plt.barh(dfmed[<span class="st">'Words'</span>], dfmed[<span class="st">'Frequency'</span>], color<span class="op">=</span><span class="st">'lightcoral'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>medplot <span class="op">=</span> plt.barh(dfmed[<span class="st">'Words'</span>], dfmed[<span class="st">'Frequency'</span>], color<span class="op">=</span><span class="st">'lightcoral'</span>)</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">'Most Frequent Mediums Mentioned in MoMA Collection'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>/tmp/ipykernel_1259/3233069019.py:5: FutureWarning:
 
@@ -348,7 +349,7 @@ The default value of regex will change from True to False in a future version. I
 <div class="cell" data-scrolled="true" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>artistdist <span class="op">=</span> dfartworks[<span class="st">'Artist'</span>]</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>artistdistdf <span class="op">=</span> artistdist.value_counts().to_frame()</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>artistdistdf.head(<span class="dv">20</span>).sort_values(<span class="st">'Artist'</span>).plot.barh()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>artistdistdf.head(<span class="dv">20</span>).sort_values(<span class="st">'Artist'</span>).plot.barh(title <span class="op">=</span> <span class="st">'Artists with the Most Works in MoMA Collection'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="7">
 <pre><code>&lt;Axes: &gt;</code></pre>
 </div>
@@ -377,7 +378,8 @@ The default value of regex will change from True to False in a future version. I
 <span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>          dates.append(<span class="bu">int</span>(w))</span>
 <span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>dates.sort()</span>
 <span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>timeseries <span class="op">=</span> np.unique(dates, return_counts<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>plt.plot(timeseries[<span class="dv">0</span>], timeseries[<span class="dv">1</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>plt.plot(timeseries[<span class="dv">0</span>], timeseries[<span class="dv">1</span>])</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">'Artworks Produced Over Time'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>/tmp/ipykernel_1259/2118156294.py:4: FutureWarning:
 
